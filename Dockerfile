@@ -16,6 +16,12 @@ RUN git clone -b Linux https://github.com/nicehash/nheqminer.git
 # on all workers ranging from i5 to i7
 
 COPY start.sh /usr/local/bin
+RUN cd /root/nheqminer/cpu_xenoncat/Linux/asm/
+RUN sh assemble.sh 
+RUN cd ../../../Linux_cmake/nheqminer_cpu 
+RUN cmake . 
+RUN make
+
 RUN chmod +x /usr/local/bin/start.sh
 
 CMD ["bash","start.sh"]
