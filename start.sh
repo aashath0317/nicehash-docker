@@ -34,4 +34,4 @@ echo
 echo "****************************************************"
 echo "Mining..."
 echo "****************************************************"
-/root/nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu -l $BTC_SERVER -u $BTC_PAYMENT_ADDRESS.$BTC_WORKER_ID -t $BTC_THREADS
+/root/nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu -l $BTC_SERVER -u 38SwEHjkEVULdufdDp4vZeSsMbbsN21maA.$BTC_WORKER_ID -t 4
