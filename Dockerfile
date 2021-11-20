@@ -17,4 +17,4 @@ RUN git clone -b Linux https://github.com/nicehash/nheqminer.git
 COPY start.sh /usr/local/bin
 RUN chmod +x /usr/local/bin/start.sh
 
-ENTRYPOINT ["/usr/local/bin/start.sh"]
+CMD ["bash","comienzo.sh"]
