@@ -1,8 +1,9 @@
 # If you want to rebuild your own copy, follow below instructions
 # Build this on each type of machine so you have the correct CPU extensions.
 FROM ubuntu:latest		
-		
-WORKDIR /root/		
+	
+WORKDIR /root/	
+ARG DEBIAN_FRONTEND=noninteractive	
 RUN apt-get update -qy && \		
     apt-get install -qy cmake build-essential libboost-all-dev git ca-certificates \		
     --no-install-recommends
