@@ -1,6 +1,6 @@
 NiceHash CPU Mining Container
 =============================
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/aashath0317/nicehash-docker)
 A simple docker container image for the nheqminer Equihash miner.
 
 https://github.com/nicehash/nheqminer
